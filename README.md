@@ -1,4 +1,4 @@
-<h1>Computer Security using Wireshark</h1>
+![image](https://github.com/user-attachments/assets/9adfc588-4a24-4b28-88f8-7edd2c220d9f)<h1>Computer Security using Wireshark</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
@@ -45,12 +45,21 @@ The analysis using Wireshark revealed significant security vulnerabilities in FT
 <b>HTTP/1.1</b>
 <br />
 It has the capability for client-server connections, allowing multiple requests to be sent sequentially within the same packet without waiting for individual responses from the server. This approach enhances communication efficiency by reducing latency, particularly during request revalidation. However, the server must return responses in the exact order in which the requests were received, ensuring the integrity and consistency of the data exchange.
-<img src="https://i.imgur.com/OX5Sxff.png" height="80%" width="80%" alt="Wireshark"/>
 <br />
+<img src="https://i.imgur.com/OX5Sxff.png" height="80%" width="80%" alt="Wireshark"/>
 <br />
 <b> Username:‘MAYAR-MMU’ and the Password:‘123MM’. </b>
 <br />
 Username and password can be seen and therefore it is not secure.
+<br />
+<br />
+<b>HTTPS</b>
+<br />
+It is much more secure than HTTP. When you connect to an HTTPS-secured server—secure sites like your bank's will automatically redirect you to HTTPS,your web browser checks the website's security certificate and verifies it was issued by a legitimate certificate authority
+<br />
+<img src="https://i.imgur.com/Bu9DN87.png" height="80%" width="80%" alt="Wireshark"/>
+<br />
+In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL)
 <br />
 
 
