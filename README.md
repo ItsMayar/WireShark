@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of using Wireshark application to utilise the packet sniffing tool to capture data communication (message or credential such as username and password) of a ftp, http and https. 
+Conducted a network security analysis project using Wireshark, a powerful packet sniffing tool, to capture and analyze data communications across FTP, HTTP, and HTTPS protocols. The project focused on intercepting and examining transmitted messages and credentials, such as usernames and passwords, to evaluate the security implications of these protocols. The analysis highlighted the vulnerabilities in unencrypted protocols (FTP, HTTP) and demonstrated the enhanced security provided by HTTPS through encryption, reinforcing the critical need for secure communication channels in protecting sensitive information.
 <br />
 
 
@@ -18,32 +18,14 @@ Project consists of using Wireshark application to utilise the packet sniffing t
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Ftp Address:ftp.vim.org
+<br />
+- Login as Anonymous
+- Password as MayaristheProjectLeader(Mayar is the Project Leader): <br/>
+<img src="https://i.imgur.com/jdViqOY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
