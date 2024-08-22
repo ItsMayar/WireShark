@@ -44,7 +44,7 @@ Wireshark analysis exposed significant security vulnerabilities in FTP server co
 <br />
 <b>HTTP/1.1</b>
 <br />
-It supports sending multiple requests in a single packet without waiting for server responses, reducing latency and enhancing efficiency. However, the server must return responses in the order received to ensure data integrity.
+It supports sending multiple requests in a single packet without waiting for server responses, reducing latency and enhancing efficiency. However, the server must return responses in the order received, which can be problematic if responses are delayed or lost, potentially impacting data integrity and overall performance.
 <br />
 <br />
 <img src="https://i.imgur.com/OX5Sxff.png" height="80%" width="80%" alt="Wireshark"/>
@@ -56,7 +56,7 @@ Username and password can be seen and therefore it is not secure.
 <br />
 <b>HTTPS</b>
 <br />
-It is much more secure than HTTP. When you connect to an HTTPS-secured server—secure sites like your bank's will automatically redirect you to HTTPS,your web browser checks the website's security certificate and verifies it was issued by a legitimate certificate authority
+HTTPS provides a higher level of security compared to HTTP. When connecting to an HTTPS-secured server, such as those used by banks, the web browser automatically redirects to HTTPS and validates the website's security certificate. This certificate is issued by a legitimate Certificate Authority (CA), ensuring the authenticity and integrity of the connection.
 <br />
 <br />
 <img src="https://i.imgur.com/Bu9DN87.png" height="80%" width="80%" alt="Wireshark"/>
