@@ -30,6 +30,12 @@ Conducted a network security analysis project using Wireshark, a powerful packet
 <img src="https://i.imgur.com/cS2Edfk.png" height="80%" width="80%" alt="Wireshark"/>
 <br />
 <br />
+<img src="https://i.imgur.com/niLWPVf.png" height="80%" width="80%" alt="Wireshark"/>
+<br />
+<br />
+<img src="https://i.imgur.com/drfpD1J.png" height="80%" width="80%" alt="Wireshark"/>
+<br />
+<br />
 </p>
 
 <!--
