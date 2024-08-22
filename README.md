@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9adfc588-4a24-4b28-88f8-7edd2c220d9f)<h1>Computer Security using Wireshark</h1>
+<h1>Computer Security using Wireshark</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
