@@ -36,6 +36,25 @@ Conducted a network security analysis project using Wireshark, a powerful packet
 <img src="https://i.imgur.com/drfpD1J.png" height="80%" width="80%" alt="Wireshark"/>
 <br />
 <br />
+<img src="https://i.imgur.com/zmpkbJa.png height="80%" width="80%" alt="Wireshark"/>
+<br />
+<br />
+The analysis using Wireshark revealed significant security vulnerabilities in FTP server communications. When connected to an FTP server, critical information such as usernames and passwords are are not encrypted, making them easily accessible for interception. Additionally, we can also track the IP address that the host is connected to, and the specific FTP commands executed, such as ls (list directory contents) and cd (change directory).
+<br />
+<br />
+<b>HTTP/1.1</b>
+<br />
+It has the capability for client-server connections, allowing multiple requests to be sent sequentially within the same packet without waiting for individual responses from the server. This approach enhances communication efficiency by reducing latency, particularly during request revalidation. However, the server must return responses in the exact order in which the requests were received, ensuring the integrity and consistency of the data exchange.
+<img src="https://i.imgur.com/OX5Sxff.png" height="80%" width="80%" alt="Wireshark"/>
+<br />
+<br />
+<b> Username:‘MAYAR-MMU’ and the Password:‘123MM’. </b>
+<br />
+Username and password can be seen and therefore it is not secure.
+<br />
+
+
+
 </p>
 
 <!--
