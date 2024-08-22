@@ -18,14 +18,18 @@ Conducted a network security analysis project using Wireshark, a powerful packet
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Ftp Address:ftp.vim.org
+<b>Ftp Address: ftp.vim.org</b>
 <br />
-- Login as Anonymous
-- Password as MayaristheProjectLeader(Mayar is the Project Leader): <br/>
-<img src="https://i.imgur.com/jdViqOY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Login: Anonymous
+</br>
+- Password: MayaristheProjectLeader(Mayar is the Project Leader)
+<br/>
+<img src="https://i.imgur.com/jdViqOY.png" height="80%" width="80%" alt="Wireshark"/>
+<br />
+<br/>
+<img src="https://i.imgur.com/cS2Edfk.png" height="80%" width="80%" alt="Wireshark"/>
 <br />
 <br />
-
 </p>
 
 <!--
