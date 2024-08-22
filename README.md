@@ -39,12 +39,13 @@ Conducted a network security analysis project using Wireshark, a powerful packet
 <img src="https://i.imgur.com/zmpkbJa.png height="80%" width="80%" alt="Wireshark"/>
 <br />
 <br />
-The analysis using Wireshark revealed significant security vulnerabilities in FTP server communications. When connected to an FTP server, critical information such as usernames and passwords are are not encrypted, making them easily accessible for interception. Additionally, we can also track the IP address that the host is connected to, and the specific FTP commands executed, such as ls (list directory contents) and cd (change directory).
+Wireshark analysis exposed significant security vulnerabilities in FTP server communications, where critical information such as usernames, passwords, and the IP address of the connected host are not encrypted, making them vulnerable to interception. FTP commands like ls and cd are also easily captured.
 <br />
 <br />
 <b>HTTP/1.1</b>
 <br />
-It has the capability for client-server connections, allowing multiple requests to be sent sequentially within the same packet without waiting for individual responses from the server. This approach enhances communication efficiency by reducing latency, particularly during request revalidation. However, the server must return responses in the exact order in which the requests were received, ensuring the integrity and consistency of the data exchange.
+It supports sending multiple requests in a single packet without waiting for server responses, reducing latency and enhancing efficiency. However, the server must return responses in the order received to ensure data integrity.
+<br />
 <br />
 <img src="https://i.imgur.com/OX5Sxff.png" height="80%" width="80%" alt="Wireshark"/>
 <br />
@@ -57,9 +58,10 @@ Username and password can be seen and therefore it is not secure.
 <br />
 It is much more secure than HTTP. When you connect to an HTTPS-secured server—secure sites like your bank's will automatically redirect you to HTTPS,your web browser checks the website's security certificate and verifies it was issued by a legitimate certificate authority
 <br />
+<br />
 <img src="https://i.imgur.com/Bu9DN87.png" height="80%" width="80%" alt="Wireshark"/>
 <br />
-In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL)
+In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL).
 <br />
 
 
